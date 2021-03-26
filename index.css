@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "segoe-script";
+    src: url(assets/fonts/segoesc.ttf);
+    font-style: normal;
+    font-weight:400;
+}
+body{
+    margin: 0;
+    font-family: "segoe-script";  
+    background-color: #ffdab8;  
+}
+
+figure{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+/* *************** HEADER */
+.header{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgba(236, 252, 255, 0.89);
+    height: 119px;
+    width: 1116px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    font-size: 29px;    
+    display: flex;
+}
+.red_background{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100vw;
+}
+.red_background img{
+    width: 100%;
+}
+.nav_text{
+    color: #B40000;
+    font-weight: 600;
+    padding-right: 50px;
+}
+.nav_logo{
+    padding-left: 10px;
+}
+.nav_logo img{
+    height: 93px;
+    width: 113px;
+}
+.nav_logo, .nav_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+
+/* *************** MAIN */
+#main{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.offer_var{
+    width: 20%;
+    border: 2px solid rgb(0, 102, 255);
+    position: relative;
+    z-index: 3;
+}
+.main_section{
+    width: 80%;
+    border: 2px solid rgb(243, 243, 243);
+    position: relative;
+    z-index: 3;
+}
+
+.offer_container{
+    background-color:#ECFCFF;
+    width: 238px;
+    height: 588px;
+    border-radius: 47px;
+    margin-left: 10%;
+    margin-left: 21%;
+    margin-top: 22%;
+    padding: 61px 23px 47px 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number_of_people{
+    background-color: #FF1C1C;
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 104px;
+    width: 219px;
+    font-size: 26px;
+    box-shadow: 0px 0px 7px black;
+}
+.offer_pizza_image img{
+    height: 132px;
+    margin-top: 28px;
+}
+.first_offer_text{
+    font-size: 26px;
+    color: #474747;
+    text-align: center;
+    font-weight: 600;
+}
+.more_combos{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
