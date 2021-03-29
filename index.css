@@ -1,0 +1,295 @@
+@font-face {
+    font-family: "segoe-script";
+    src: url(assets/fonts/segoesc.ttf);
+    font-style: normal;
+    font-weight:400;
+}
+body{
+    margin: 0;
+    font-family: "segoe-script";  
+    background-color: #ffdab8;  
+}
+
+figure{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+/* *************** HEADER */
+.header{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgba(236, 252, 255, 0.89);
+    height: 119px;
+    width: 58.2%;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    font-size: 29px;    
+    display: flex;
+}
+.red_background{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100vw;
+}
+.red_background img{
+    width: 100%;
+}
+.nav_text{
+    color: #B40000;
+    font-weight: 600;
+    padding-right: 4.5%;
+}
+.nav_logo{
+    padding-left: 10px;
+}
+.nav_logo img{
+    height: 93px;
+    width: 113px;
+}
+.nav_logo, .nav_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+
+/* *************** MAIN */
+#main{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.offer_var{
+    width: 20%;
+    position: relative;
+    z-index: 3;
+}
+.main_section{
+    width: 60%;
+    position: relative;
+    z-index: 3;
+    margin-right: 20%;
+    margin-left: 5.5%;
+}
+
+.offer_container{
+    background-color:#ECFCFF;
+    width: 66%;
+    height: 588px;
+    border-radius: 47px;
+    margin-left: 10%;
+    margin-left: 21%;
+    margin-top: 22%;
+    padding: 61px 23px 47px 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number_of_people{
+    background-color: #FF1C1C;
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 104px;
+    width: 92%;
+    font-size: 26px;
+    box-shadow: 0px 0px 7px black;
+}
+.offer_pizza_image img{
+    height: 132px;
+    margin-top: 28px;
+}
+.first_offer_text{
+    font-size: 26px;
+    color: #474747;
+    text-align: center;
+    font-weight: 600;
+}
+.more_combos{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+
+    width: 93.5%;
+    height: 62px;
+    border: none;
+    background-color: #F17F28;
+    border-radius: 16px;
+    margin-top: 20px;
+    outline: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza_tag{
+    width: 100%;
+    margin-top: auto;
+}
+.pizza_tag img{
+    height: 90px;
+    
+}
+.pedido_logo img{
+    height: 74px;
+    width: 74px;
+    margin-right: 20px;
+}
+.pedido_logo{
+    font-size: 22px;
+    color: #FFF48F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding-top: 40px;
+}
+
+.linea{    
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    border: 0;
+}
+.linea_horizontal{
+    width: 100%;
+    top: 150px;
+    left: 0;
+}
+.linea_vertical{
+    transform: rotate(90deg);
+    width: 500px;    
+    top: 442px;
+    left: 25%;
+
+}
+.main_content{
+    display: flex;
+    position: relative;
+    z-index: 3;
+    padding-top: 60px;
+}
+
+.create_pizza_container{
+    width: 50%;
+}
+.combo_pizza_container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create_image_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create_icon{
+    margin-left: 12.8%;
+    margin-top: 17px;
+    height: 64px;
+    width: 65px;
+}
+.create_image{
+    width: 57%;
+    margin-top: -19px;
+    
+}
+.create_pizza_text{
+    color: #474747;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.primer_combo_text{
+    color: #FFFFFF;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 17px;
+}
+.combo_pizza_image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.combo_pizza_image img{
+    width: 48.35%;
+    max-height: 166px;
+}
+
+.combo_extras{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linea_h_combos{
+    width: 454px;
+    margin-top: 30px;
+    background-color: #3D2A2A;
+}
+.linea_v_combos{
+    width: 134px;
+    margin-top: 30px;
+    background-color: #3D2A2A;
+    transform: rotate(90deg);
+    left: 37%;
+    top: 42%;
+}
+.combo_images{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.potatoes_image img{
+    max-height: 167px;
+}
+.pan_ajo_image img{
+    max-width: 216px;
+    max-height: 114px;
+}
+.pick_it_up{
+    background-color:#FF2121;
+    height: 73px;
+    width: 97%;
+    font-size: 27px;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.footer_pizza_icon{
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     height: 84px;
+     margin-bottom: 30px;
+     margin-right: 73px;
+}
