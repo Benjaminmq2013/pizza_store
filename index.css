@@ -1,9 +1,10 @@
+/*
 @font-face {
     font-family: "segoe-script";
-    src: url(assets/fonts/segoesc.ttf);
+    src: url();
     font-style: normal;
     font-weight:400;
-}
+}*/
 body{
     margin: 0;
     font-family: "segoe-script";  
