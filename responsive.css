@@ -191,4 +191,57 @@
     .offer_pizza_image img{
         height: 183px;
     }
+    .nav_text {
+        font-size: 18px;
+    }
+    .main_section {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .red_background img {
+        height: 498px;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    body{
+        border: 1px solid blue;
+    }
+    .navbar{
+        width: 70.2%;
+        height: 65px;
+    }
+    .nav_logo img {
+        height: 53px;
+    }
+    .nav_text {
+        font-size: 17px;
+    }
+    .pedido_logo img {
+        height: 49px;
+    }
+    .pedido_logo {
+        font-size: 15px;
+    }
+    #main {
+        margin-top: 3px;
+    }
+    .linea_horizontal {
+        top: 87px;
+    }
+    .main_content {
+        padding-top: 34px;
+    }
+    .linea_vertical{
+        top: 314px;
+    }
+    .pan_ajo_image img {
+        max-width: 74%;
+    }
+    .pan_ajo_image{
+        display: flex;
+        justify-content: center;
+    }
 }
