@@ -390,11 +390,26 @@
     .more_combos{
         width: 81.5%;
     }
+    
 }
 
 @media screen and (max-width: 480px){
     .red_background img {
         height: 1133px;
+    }    
+    .number_of_people {
+        height: 57px;
+        font-size: 22px;
     }
-    
+    .first_offer_text {
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .more_combos{
+        height: 56px;
+        font-size: 20px;
+    }
+    .offer_container{
+        height: 407px;
+    }
 }
