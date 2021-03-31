@@ -1,0 +1,448 @@
+@media screen and (max-width: 1700px){
+    .main_section {
+        margin-right: 10%;
+        margin-left: 3.5%;
+        width: 65%;
+    }
+    .main_content{
+        padding-top: 51px;
+    }
+    .offer_var{
+        width: 19%;
+    }
+    .offer_container{
+        height: 567px;
+        margin-left: 15%;
+    }
+    .navbar{
+        height: 100px;
+    }
+    .nav_logo img {
+        height: 77px;
+        width: initial;
+    }
+    #main{
+        margin-top: 10px;
+    }
+    .linea_horizontal{
+        top: 132px;
+    }
+    .linea_vertical{
+        left: 24%;
+    }
+    .create_image {
+        width: 48%;
+    }
+    .combo_pizza_image img {
+        width: 42.35%;
+    }
+    .pan_ajo_image img {
+        max-width: 190px;
+    }
+    .potatoes_image img {
+        max-height: 149px;
+        margin-left: 10%;
+    }
+    .more_combos{
+        font-size: 19px;
+    }
+    .nav_text{
+        font-size: 19px;
+    }
+    .linea_h_combos {
+        width: 413px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    .navbar {
+        height: 73px;
+    }
+    .number_of_people{
+        font-size: 19px;
+        height: 74px;
+        border-radius: 19px
+    }
+    .first_offer_text {
+        font-size: 21px;
+    }
+    .more_combos {
+        font-size: 15px;
+        height: 45px;
+        border-radius: 11px;
+    }
+    .offer_pizza_image img {
+        height: 104px;
+        margin-top: 18px;
+    }
+    .pedido_logo img {
+        height: 54px;
+        width: initial;
+    }
+    .pedido_logo {
+        font-size: 17px;
+        padding-top: 20px;
+    }
+    .offer_container{
+        padding: 45px 23px 35px 23px;
+        width: 59%;
+        height: 436px;
+    }
+    .pizza_tag img {
+        height: 61px;
+    }
+    .nav_logo img {
+        height: 61px;
+    }
+    .linea_horizontal {
+        top: 97px;
+        height: 2px;
+    }
+    .linea_vertical {
+        width: 396px;
+        height: 2px;
+        top: 328px;
+        left: 24%
+    }
+    .main_content {
+        padding-top: 41px;
+    }
+    .create_icon{
+        height: 48px;
+        width: initial;
+    }
+    .create_image {
+        width: 39%;
+    }
+    .create_pizza_text{
+        font-size: 21px;
+        margin-top: 20px
+    }
+    .primer_combo_text{
+        font-size: 19px;
+    }
+    .pan_ajo_image img {
+        max-width: 160px;
+    }
+    .potatoes_image img {
+        max-height: 116px;
+    }
+    .pick_it_up{
+        height: 50px;
+        width: 85%;
+        border-radius: 12px;
+        font-size: 21px;
+        
+    }
+    .linea_h_combos {
+        width: 363px;
+        height: 2px;
+    }
+    .linea_v_combos {
+        width: 111px;
+        height: 2px;
+        left: 40%;
+
+    }
+    #main{
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    #main{
+        flex-direction: column-reverse;
+    }
+    .main_section{
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .pedido_logo{
+        width: 100%;
+    }
+    .footer_pizza_icon{
+        margin-right: 35px;
+        height: 72px;
+    }
+    .offer_var {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .offer_container{
+        margin: 0;
+        margin-top: 110px;
+        height: 535px;
+    }
+    .number_of_people{
+        width: 57%;
+        font-size: 26px;
+        margin-top: 18px;
+        margin-bottom: 6px;
+    }
+    .more_combos{
+        width: 57.5%;
+        height: 63px;
+        font-size: 19px;
+    }
+    .offer_pizza_image img{
+        height: 183px;
+    }
+    .nav_text {
+        font-size: 18px;
+    }
+    .main_section {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .red_background img {
+        height: 498px;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    body{
+        border: 1px solid blue;
+    }
+    .navbar{
+        width: 70.2%;
+        height: 65px;
+    }
+    .nav_logo img {
+        height: 53px;
+    }
+    .nav_text {
+        font-size: 17px;
+    }
+    .pedido_logo img {
+        height: 49px;
+    }
+    .pedido_logo {
+        font-size: 15px;
+    }
+    #main {
+        margin-top: 3px;
+    }
+    .linea_horizontal {
+        top: 87px;
+    }
+    .main_content {
+        padding-top: 34px;
+    }
+    .linea_vertical{
+        top: 314px;
+        left: 21%;
+    }
+    .pan_ajo_image img {
+        max-width: 74%;
+    }
+    .pan_ajo_image{
+        display: flex;
+        justify-content: center;
+    }
+    .linea_h_combos {
+        width: 274px;
+    }
+    .linea_v_combos{
+        left: 36%;
+    }
+    .potatoes_image{
+        margin-left: 0;
+    }
+    .number_of_people{
+        height: 66px;
+    }
+    .offer_pizza_image br{
+        display: none;
+    }
+    .first_offer_text {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .more_combos {
+        width: 71.5%;
+        height: 63px;
+        font-size: 24px;
+        margin-top: 41px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .navbar {
+        width: 100%;
+        height: 90px;
+        border-radius: 0;
+    }
+    .nav_text {
+        font-size: 21px;
+        width: 60%;
+        padding: 0;
+
+    }
+    .nav_logo{
+        padding: 0;
+    }
+    .nav_logo img{
+        margin-left: 10%;
+    }
+    .nav_text_p{
+        margin-right: 10%;
+    }
+    .main_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .create_pizza_container {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 99px 112px 347px;
+        justify-content:center;
+        justify-items:center;
+    }
+    .combo_pizza_container {
+        width: 100%;
+    }
+    .linea_vertical{
+        display: none;
+    }
+    .linea_horizontal{
+        left: 0;
+        right: 0;
+        width: 70%;
+        top: 576px
+    }
+    .red_background img{
+        height: auto;
+    }
+    .create_icon{
+        width: 65px;
+        height: auto;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin: 0;
+    }
+    .create_pizza_text{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        color: white;
+    }
+    .create_image {
+        width: 46%;
+    }
+    .linea_v_combos {
+        left: 43.5%;
+        background-color: white;
+        left: 0;
+        right: 0;
+    }
+    .linea_h_combos {
+        width: 274px;
+        left: 0;
+        right: 0;    
+        background-color: white;
+
+    }
+    .pick_it_up{
+        width: 61%;
+        margin-top: 34px;
+    }
+    .offer_container{
+        width: 68%;
+    }
+    .potatoes_image img{
+        margin-left: 0;
+    }
+    .number_of_people{
+        height: 66px; 
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 656px){
+    .offer_container {
+        width: 77%;
+    }
+    .number_of_people {
+        width: 79%;
+    }
+    .offer_container{
+        position: relative;
+        height: 458px;
+    }
+    .pizza_tag{
+        position: absolute;
+        top: 194px;        
+    }
+    .pizza_tag img{
+        margin-left: 8%;
+    }
+    .offer_pizza_image img {
+        height: auto;
+        width: 47vw;    
+
+    }
+    .more_combos{
+        width: 81.5%;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .navbar{
+        height: 83px;
+    }
+    .red_background img {
+        height: 1133px;
+    }    
+    .number_of_people {
+        height: 47px;
+        font-size: 19px;
+        border-radius: 13px;
+    }
+    .first_offer_text {
+        font-size: 18px;
+        margin-top: 3px;
+    }
+    .more_combos {
+        height: 46px;
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .offer_container{
+        height: 346px;
+        margin-top: 83px;
+    }
+    .pizza_tag img {
+        height: 46px;
+    }
+    .pizza_tag{
+        top: 170px;
+    }
+    .create_pizza_container{
+        grid-template-rows: 99px 112px 286px;
+    }
+    .linea_horizontal{
+        top: 566px;
+    }
+    .pick_it_up{
+        width: 70%;
+        height: 45px;
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (max-width: 370px){
+    .linea_horizontal {
+        top: 515px;
+    }
+    .create_pizza_container {
+        grid-template-rows: 99px 112px 221px;
+    }
+}
