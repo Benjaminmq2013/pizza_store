@@ -423,5 +423,10 @@
     .pizza_tag{
         top: 170px;
     }
-    
+    .create_pizza_container{
+        grid-template-rows: 99px 112px 286px;
+    }
+    .linea_horizontal{
+        top: 566px;
+    }
 }
