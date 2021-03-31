@@ -280,6 +280,18 @@
     }
     .nav_text {
         font-size: 21px;
+        width: 60%;
+        padding: 0;
+
+    }
+    .nav_logo{
+        padding: 0;
+    }
+    .nav_logo img{
+        margin-left: 10%;
+    }
+    .nav_text_p{
+        margin-right: 10%;
     }
     .main_content{
         display: flex;
@@ -299,7 +311,8 @@
         display: none;
     }
     .linea_horizontal{
-        left: 113px;
+        left: 0;
+        right: 0;
         width: 70%;
         top: 576px
     }
@@ -348,6 +361,7 @@
         height: 66px; 
         font-size: 24px;
     }
+    
 }
 
 @media screen and (max-width: 480px){

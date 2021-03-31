@@ -33,6 +33,7 @@ p{
     border-bottom-right-radius: 23px;
     font-size: 29px;    
     display: flex;
+    box-shadow: 0px 0px 7px;
 }
 .red_background{
     position: absolute;
