@@ -294,7 +294,32 @@ p{
      position: fixed;
      bottom: 0;
      right: 0;
-     height: 84px;
-     margin-bottom: 30px;
+     height: 84px;   
+     margin-bottom: 114px;
      margin-right: 73px;
+}
+
+
+/* *************************  FOOTER  */
+.footer{
+    height: 100px;
+    background-color: #F33A3A;
+    margin-top: 100px;
+    position: relative;
+    padding: 0 6%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_items a{
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+.footer_items{
+    
+    display: flex;
+    flex-direction: column;
+
 }
