@@ -436,3 +436,13 @@
         font-size: 19px;
     }
 }
+
+
+@media screen and (max-width: 370px){
+    .linea_horizontal {
+        top: 515px;
+    }
+    .create_pizza_container {
+        grid-template-rows: 99px 112px 221px;
+    }
+}
