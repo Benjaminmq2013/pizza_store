@@ -267,6 +267,9 @@ p{
     display: flex;
     align-items: center;
 }
+.potatoes_image{
+    width: 50%;
+}
 .potatoes_image img{
     max-height: 167px;
 }
