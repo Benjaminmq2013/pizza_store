@@ -394,22 +394,34 @@
 }
 
 @media screen and (max-width: 480px){
+    .navbar{
+        height: 83px;
+    }
     .red_background img {
         height: 1133px;
     }    
     .number_of_people {
-        height: 57px;
-        font-size: 22px;
+        height: 47px;
+        font-size: 19px;
+        border-radius: 13px;
     }
     .first_offer_text {
-        font-size: 22px;
-        margin-top: 4px;
+        font-size: 18px;
+        margin-top: 3px;
     }
-    .more_combos{
-        height: 56px;
-        font-size: 20px;
+    .more_combos {
+        height: 46px;
+        font-size: 17px;
+        margin-top: 30px;
     }
     .offer_container{
-        height: 407px;
+        height: 346px;
     }
+    .pizza_tag img {
+        height: 46px;
+    }
+    .pizza_tag{
+        top: 170px;
+    }
+    
 }
