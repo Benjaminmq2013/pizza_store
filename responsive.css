@@ -416,6 +416,7 @@
     }
     .offer_container{
         height: 346px;
+        margin-top: 83px;
     }
     .pizza_tag img {
         height: 46px;
@@ -428,5 +429,10 @@
     }
     .linea_horizontal{
         top: 566px;
+    }
+    .pick_it_up{
+        width: 70%;
+        height: 45px;
+        font-size: 19px;
     }
 }
