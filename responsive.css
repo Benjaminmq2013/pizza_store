@@ -383,12 +383,13 @@
         margin-left: 8%;
     }
     .offer_pizza_image img {
-        height: 167px;       
+        height: auto;
+        width: 47vw;    
+
     }
     .more_combos{
         width: 81.5%;
     }
-    
 }
 
 @media screen and (max-width: 480px){
