@@ -321,4 +321,35 @@
     .create_image {
         width: 46%;
     }
+    .linea_v_combos {
+        left: 43.5%;
+        background-color: white;
+        left: 0;
+        right: 0;
+    }
+    .linea_h_combos {
+        width: 274px;
+        left: 0;
+        right: 0;    
+        background-color: white;
+
+    }
+    .pick_it_up{
+        width: 61%;
+        margin-top: 34px;
+    }
+    .offer_container{
+        width: 68%;
+    }
+    .potatoes_image img{
+        margin-left: 0;
+    }
+    .number_of_people{
+        height: 66px; 
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
 }
