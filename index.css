@@ -47,9 +47,12 @@ p{
     width: 100%;
 }
 .nav_text{
-    color: #B40000;
     font-weight: 600;
     padding-right: 4.5%;
+}
+.nav_text a{
+    color: #B40000;
+    text-decoration: none;
 }
 .nav_logo{
     padding-left: 10px;
