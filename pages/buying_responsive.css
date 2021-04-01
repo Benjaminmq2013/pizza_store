@@ -194,13 +194,14 @@
         height: 7px;
     }
     .products_selection_container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .product_container{
         margin: 15px 23px
     }
     .back_button_container img {
         margin-top: 85px;
+        margin-right: -68px;
     }
     .back_button_container {
         width: 0%;
