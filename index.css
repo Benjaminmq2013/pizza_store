@@ -5,6 +5,7 @@
     font-style: normal;
     font-weight:400;
 }
+
 body{
     margin: 0;
     font-family: "segoe-script";  
@@ -288,6 +289,12 @@ p{
     border-radius: 16px;
     margin-top: 4%;
     margin-left: 5%;
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .footer_pizza_icon{
