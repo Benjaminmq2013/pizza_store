@@ -109,9 +109,9 @@ p{
     border: 2px solid #06B100;  
 }
 .product_2 img{
-    width: 70%;
-    max-height: 134px;    
-    margin-top: 50px;
+    width: 45%;
+    max-height: 134px;   
+    margin-top: 33px;
 }
 .product_2 figure{
     display: flex;
@@ -121,9 +121,29 @@ p{
 .product_2 figure div{
     display: flex;
 }
+.product_2 hr{
+    top: 37%;
+}
+.product_2 p{
+    margin-top: 48px;
+}
 .pan_ajo_image{
-    max-width: 50px;
-    height: auto;
+    max-width: 109px;
+    height:58px;
+    border-radius: 100px;
+
+}
+.potatoes_image{
+    height: 74px;
+    width: 112px;
+}
+.combo_images{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.combo_images img{
+    margin-top: 0;
 }
 
 .product_3{
@@ -133,6 +153,9 @@ p{
     width: 55%;
     max-height: 214px;
     margin-top: 0px;
+}
+.product_3 p{
+    margin-top: 42px;
 }
 
 .buying_title{
@@ -199,5 +222,6 @@ p{
 .product_name{
     color: #0071B4;
     font-size: 18px;
-    margin-top: 68px;
+    margin-top: 68px;    
+    font-weight: 600;
 }

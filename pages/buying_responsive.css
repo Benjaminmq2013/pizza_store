@@ -1,0 +1,117 @@
+@media screen and (max-width: 1500px){
+    .nav_logo img {
+        height: 73px;
+        width: 92px;
+    }
+    .nav_text_p{
+        font-size:26px;
+    }
+    .level_selection {
+        width: 43px;
+        height: 11px
+    }
+    .navbar{
+        padding-bottom: 4px;
+    }
+    .buying_title{
+        padding-bottom: 0px;
+    }
+    .product_container{
+        height: 282px;
+        width: 274px
+    }
+    .cancel_button{
+        height: 69px;
+        width: 324px;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    .navbar{
+        padding-top: 37px;
+    }
+    .nav_logo img {
+        height: 58px;
+        width: 73px;
+    }
+    .nav_container{
+        width: 20%
+    }
+    .level_selection{
+        margin: 0 21px;
+        width: 32px;
+        height: 9px;
+    }
+    .buying_title h2 {
+        font-size: 20px;
+        margin-top: 12px;
+    }
+    
+    .back_button_container img {
+        height: 40px;
+    }
+    .nav_text_p {
+        font-size: 21px;
+    }
+    .buying_title{
+        margin-top: 0px;
+    }
+    .product_container {
+        height: 180px;
+        width: 173px;
+        border-radius: 33px;
+    }
+    .product_1 img{
+        margin-top: 34px;
+    }
+    .product_name{
+        margin-top: 28px;
+        font-size: 13px;
+    }
+    .pan_ajo_image {
+        max-width: 60px;
+        height: 32px;
+    }
+    .potatoes_image{
+        height: 42px;
+    }
+    .product_2 img{
+        margin-top: 16px;
+    }
+    .combo_images img{
+        margin: 0;
+    }
+    .separator_line{
+        height: 127px;
+        top: 30%;
+    }
+    .product_2 hr {
+        top: 31%;
+    }
+    .product_2 p {
+        margin-top: 35px;
+    }
+    .product_3 p {
+        margin-top: 29px;
+    }
+    .product_name {
+        margin-top: 39px;
+    }
+    .buying_title{
+        margin-bottom: 26px;
+    }
+    .skip_step{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .controls{
+        margin-top: 33px;
+    }
+    .cancel_button{
+        font-size: 17px;
+        border-radius: 12px;
+        height: 41px;
+        width: 231px;
+        border: 2px solid;
+    }
+}
