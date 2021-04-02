@@ -1,0 +1,33 @@
+.bye_products{
+    animation-name: bye_products;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;  
+}
+.back_products{
+    animation-name: back_products;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1; 
+}
+
+@keyframes bye_products{
+    0%{
+
+    }
+    100%{
+        transform: translateX(-50vw);
+        opacity:0;
+    }
+}
+
+@keyframes back_products{
+    0%{
+        transform: translateX(-50vw);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0vw);
+        opacity:1;
+    }
+}

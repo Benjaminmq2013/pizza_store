@@ -225,3 +225,26 @@ p{
     margin-top: 68px;    
     font-weight: 600;
 }
+
+
+/* ANIMACIONES PARA FUNCTIONES */
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+
+
+
+
+
+
+
+.products_selection_container_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

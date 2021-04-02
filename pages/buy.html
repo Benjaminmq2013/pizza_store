@@ -7,6 +7,7 @@
     <title>Buy Pizza</title>
     <link rel="stylesheet" href="./buy.css">
     <link rel="stylesheet" href="./buying_responsive.css">
+    <link rel="stylesheet" href="./animations.css">
 
 </head>
 <body>
@@ -51,37 +52,77 @@
                 <h2>¿Qué desea?</h2>
             </div>
 
-            <div class="products_selection_container">
+            <!-- ESTE CONTENEDOR CAMBIA SU CONTENIDO DINAMICAMENTE -->
+            <div class="products_selection_wrapper">
 
-                <div class="product_container product_1">
-                    <figure>
-                        <img src="../images/pizza.png" alt="">
-                    </figure>
-                    <p class="product_name">Pizza</p>
-                    <hr class="separator_line">
+                <div class="products_selection_container display-none"> <!-- <= ELIMINAR DISPLAY-NONE -->
+                    <div class="product_container product_1 fase_1">
+                        <figure>
+                            <img src="../images/pizza.png" alt="">
+                        </figure>
+                        <p class="product_name">Pizza</p>
+                        <hr class="separator_line">
+                    </div>
+    
+    
+                    <div class="product_container product_2 fase_1">
+                        <figure>
+                            <img src="../images/pizza_combo.png" alt="">
+                            <div class="combo_images">
+                                <img class="pan_ajo_image" src="../images/pan_con_ajo.png" alt="">
+                                <img class="potatoes_image" src="../images/potatoes_image.png" alt="">
+                            </div>
+                        </figure>
+                        <p class="product_name">Combo</p>
+                        <hr class="separator_line">                   
+                    </div>
+    
+    
+                    <div class="product_container product_3 fase_1">
+                        <figure>
+                            <img src="../images/pizza_crear.png" alt="">
+                        </figure>
+                        <p class="product_name">Crear Pizza</p>
+                        <hr class="separator_line">                    
+                    </div>    
                 </div>
 
 
-                <div class="product_container product_2">
-                    <figure>
-                        <img src="../images/pizza_combo.png" alt="">
-                        <div class="combo_images">
-                            <img class="pan_ajo_image" src="../images/pan_con_ajo.png" alt="">
-                            <img class="potatoes_image" src="../images/potatoes_image.png" alt="">
-                        </div>
-                    </figure>
-                    <p class="product_name">Combo</p>
-                    <hr class="separator_line">                   
+                <!-- *********** DESDE AQUÍ LA PLANTILLA ********* -->
+
+                <div class="products_selection_container display-none"> <!-- <= ELIMINAR DISPLAY-NONE -->
+                    <div class="product_container product_1 fase_1">
+                        <figure>
+                            <img src="../images/pizza.png" alt="">
+                        </figure>
+                        <p class="product_name">Pizza</p>
+                        <hr class="separator_line">
+                    </div>
+    
+    
+                    <div class="product_container product_2 fase_1">
+                        <figure>
+                            <img src="../images/pizza_combo.png" alt="">
+                            <div class="combo_images">
+                                <img class="pan_ajo_image" src="../images/pan_con_ajo.png" alt="">
+                                <img class="potatoes_image" src="../images/potatoes_image.png" alt="">
+                            </div>
+                        </figure>
+                        <p class="product_name">Combo</p>
+                        <hr class="separator_line">                   
+                    </div>
+    
+    
+                    <div class="product_container product_3 fase_1">
+                        <figure>
+                            <img src="../images/pizza_crear.png" alt="">
+                        </figure>
+                        <p class="product_name">Crear Pizza</p>
+                        <hr class="separator_line">                    
+                    </div>    
                 </div>
 
 
-                <div class="product_container product_3">
-                    <figure>
-                        <img src="../images/pizza_crear.png" alt="">
-                    </figure>
-                    <p class="product_name">Crear Pizza</p>
-                    <hr class="separator_line">                    
-                </div>
 
             </div>
 
@@ -93,6 +134,8 @@
     </main>
 
 
-    
+    <script src="./js/script.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/animations.js"></script>
 </body>
 </html>
