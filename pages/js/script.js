@@ -89,3 +89,30 @@ function definir_pedido_3(pedido){
         console.log("No clickees más veces aquí")
     }
 }
+
+
+// AQUÍ INICIA LA FASE 4
+const product_8 = document.querySelector(".product_8")
+const product_9 = document.querySelector(".product_9")
+
+product_8.addEventListener("click", ()=>{
+    definir_pedido_4("Papas")
+})
+product_9.addEventListener("click", ()=>{
+    definir_pedido_4("Palitroques")
+})
+
+let fase_4_completa = false;
+
+function definir_pedido_4(pedido){ 
+    if (fase_4_completa == false){
+        fase_4_completa = true;
+        esta_compra.push(pedido)
+        console.log(esta_compra)
+    
+        //Origen en navigation.js
+        compra_abrir_paso_5()
+    } else if (fase_4_completa == true){
+        console.log("No clickees más veces aquí")
+    }
+}

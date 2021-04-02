@@ -13,6 +13,10 @@ function bye_products(estado){
             animacion_fase_3()
             console.log("SE DISPARÓ LA ANIMACIÓN CERRANDO LA FASE 3")
             break;
+        case 3:
+            animacion_fase_4()
+            console.log("SE DISPARÓ LA ANIMACIÓN CERRANDO LA FASE 4")
+            break;
         default:
             console.log("No seleccionaste ningún producto")
             break;
@@ -69,5 +73,25 @@ function animacion_fase_3(){
 
     setTimeout(function (){
         products_selection_container_3.classList.add("display-none")        
+    }, 1000)
+}
+
+
+
+
+function animacion_fase_4(){
+    const products_selection_container_4 = document.querySelector(".products_selection_container_4")
+    products_selection_container_4.classList.remove("hello_products")
+    products_selection_container_4.classList.add("bye_products")
+
+    /*
+    const products_selection_container_4 = document.querySelector(".products_selection_container_4")
+    products_selection_container_4.classList.remove("display-none")
+    products_selection_container_4.classList.add("hello_products")
+    */
+    
+
+    setTimeout(function (){
+        products_selection_container_4.classList.add("display-none")        
     }, 1000)
 }

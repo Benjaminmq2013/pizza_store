@@ -18,3 +18,9 @@ function compra_abrir_paso_4(){
     bye_products(estado)
     estado = 3;    
 }
+
+
+function compra_abrir_paso_5(){
+    bye_products(estado)
+    estado = 4;    
+}
