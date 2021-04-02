@@ -33,3 +33,20 @@ function definir_pedido_1 (pedido){
     }
     
 }
+
+
+// AQUÍ INICIA LA FASE 2
+
+const product_4 = document.querySelector(".product_4")
+const product_5 = document.querySelector(".product_5")
+
+product_4.addEventListener("click", ()=>{
+    definir_pedido_2("Combo grande")
+})
+product_5.addEventListener("click", ()=>{
+    definir_pedido_2("Crear Pizza")
+})
+
+function definir_pedido_2(){ 
+
+}
