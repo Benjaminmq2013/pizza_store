@@ -1,7 +1,7 @@
 .bye_products{
     animation-name: bye_products;
     animation-duration: 1s;
-    animation-fill-mode: both;
+    animation-fill-mode:none;
     animation-iteration-count: 1;  
 }
 .back_products{
@@ -19,6 +19,8 @@
     }
     100%{
         position: absolute;
+        right: 0;
+        left: 0;
         transform: translateX(-50vw);
         opacity:0;
     }
