@@ -261,13 +261,62 @@ p{
 .products_selection_container_2{    
     justify-content: center;
     align-items: center;
-    display: flex;
-
-    
+    display: flex;    
 }
+
 .products_selection_wrapper{
     position: relative;
 }
+
+.products_selection_container_3{    
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+}
+#pepperoni_ingredient_image {
+    margin-top: 74px;
+    width: 81%;
+    margin-top: 72px;
+}
+#pepperoni_pizza_text{
+    margin-top: 70px;
+}
+#ham_pizza_image{
+    margin-top: 60px;
+}
+
+
+
+.product_6{
+    border: 2px solid #FF8000;    
+}
+.product_6 img{
+    width: 70%;
+    max-height: 134px;    
+    margin-top: 50px;
+}
+.product_6 p{
+    margin-top: 55px;
+}
+.product_7{
+    border: 2px solid #06B100;  
+}
+#palitos_image{
+    width: 62%;
+    margin-top: 25px;
+}
+#palitos_image_text{
+    margin-top: 52px;
+}
+#potatoes_image{    
+    width: 46%;
+}
+.products_selection_container_4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 
 
 /* ANIMACIONES PARA FUNCTIONES */
@@ -277,6 +326,10 @@ p{
 
 .display-block{
     display: block;
+}
+
+.display-flex{
+    display: flex;
 }
 
 
