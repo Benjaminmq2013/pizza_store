@@ -371,15 +371,15 @@ p{
     display: flex;
 }
 .normal_login{
-    width: 50%;
+    width: 47%;
+    padding-left: 3%;
 }
 .login_with{
-    width: 50%;
-    
+    width: 42%;
     display:flex;
     justify-content:center;
     align-items: center;
-    padding-right: 5%;
+    padding-right: 8%;
     
 }
 
@@ -394,6 +394,7 @@ p{
     padding-left:16px;
     color: #378CE1;
     margin: 28px 0;
+    outline: none;
 }
 .normal_login ::placeholder{
     color: #378CE1;
@@ -408,7 +409,7 @@ p{
 .normal_login_hr{
     position: absolute;
     top: 13px;
-    right: 126px;
+    right: 120px;
     width: 3px;
     height: 343px;
     background-color: #707070;
@@ -462,7 +463,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-bottom: 81px;
 }
 .login_with_hr{
     position: absolute;
@@ -472,4 +473,16 @@ p{
     height: 343px;
     background-color: #707070;
     border: 0px;
+}
+
+.register_btn{
+    height: 62px;
+    width: 187px;
+    background-color: #3A54FF;
+    border: 0;
+    border-radius: 10px;
+    color: #FFFEFE;
+    font-size: 33px;
+    font-weight: 600;
+    margin-top: 20px;
 }

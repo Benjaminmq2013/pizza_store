@@ -1,3 +1,12 @@
+@media screen and (max-width: 1800px){
+    .login_with_hr{
+        right: 7.5%;
+    }
+    .normal_login_hr{
+        right: 86px;
+    }
+}
+
 @media screen and (max-width: 1500px){
     .nav_logo img {
         height: 73px;
@@ -24,6 +33,45 @@
         height: 69px;
         width: 324px;
     }
+
+    .normal_login input{
+        width: 333px;
+        height: 57px;
+        font-size: 22px;
+    }
+    .login_wrapper{
+        margin-top: -55px;
+        margin: 24px 0;
+    }
+    .login_container{
+        margin-top: -52px
+    }
+    .register_btn{
+        height: 55px;
+        width: 177px;
+        font-size: 26px;
+    }
+    .facebook_login{
+        height: 62px;
+        width: 357px;
+        font-size: 24px;
+    }
+    .google_login{
+        height: 60px;
+        width: 251px;
+        font-size: 24px;
+
+    }
+    .normal_login input {
+        width: 319px;
+        height: 50px;
+        font-size: 21px;
+    }
+
+    .login_with_hr {
+        right: 178px;
+    }
+    
 }
 
 @media screen and (max-width: 1366px){
@@ -114,7 +162,67 @@
         width: 231px;
         border: 2px solid;
     }
+
+    /* LOGIN LAYOUT */
+    .normal_login input {
+        width: 273px;
+        height: 40px;
+        font-size: 21px;
+        margin: 16px 0;
+        border: 2px solid #7B7ED2;
+        border-radius: 7px;
+    }
+    .register_btn {
+        height: 41px;
+        width: 138px;
+        font-size: 21px;
+        border-radius: 8px;
+    }
+    .normal_login_hr{
+        width: 2px;
+        height: 212px;
+        top: 2px;
+    }
+    .buying_title {
+        margin-bottom: 78px;
+    }
+    .facebook_login {
+        height: 46px;
+        width: 271px;
+        font-size: 20px;
+        border-radius: 8px;
+        margin-bottom: 35px;
+    }
+    .google_login {
+        height: 46px;
+        width: 212px;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .login_with_hr {
+        right: 15%;
+        height: 207px;
+        width: 2px;
+        top: 3px;
+    }
+    .skip_login{        
+        font-size: 21px;
+    }
+    .skip_login_container{
+        padding-top: 0;
+    }
 }
+
+
+@media screen and (max-width: 1150px){
+    .login_with_hr {
+        right: 10%;
+    }
+    .normal_login_hr{
+        right: 8%;
+    }
+}
+
 
 @media screen and (max-width: 950px){
     .navbar {
@@ -152,6 +260,26 @@
         margin-top: 25px;
         height: 39px;
     }
+
+    .normal_login_input{
+        margin: 14px 0;
+        width: 231px;
+        height: 37px;
+    }
+    .facebook_login{
+        height: 43px;
+        width: 244px;
+        font-size: 18px;
+        margin-bottom: 29px;
+    }
+    .google_login {
+        height: 43px;
+        width: 198px;
+        font-size: 18px;
+    }
+    .normal_login_hr {
+        right: 4%;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -177,6 +305,37 @@
     .back_button_container img {
         margin-right: -47px;
         margin-top: 47px;
+    }
+
+    .login_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 84px;
+    }
+    .normal_login{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .login_with{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 99px
+    }
+    .login_with_hr{
+        display: none;
+    }
+    .normal_login_hr{
+        height: 1px;
+        width: 322px;
+        bottom: 0;
+        top: initial;
+        left: 0;
+        right: 0;
+    }
+    .formulario{
+        padding-bottom: 68px;
     }
 }
 
