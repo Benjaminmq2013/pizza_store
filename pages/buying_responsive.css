@@ -211,6 +211,27 @@
     .skip_login_container{
         padding-top: 0;
     }
+
+
+    .resumen_wrapper p {
+        font-size: 22px;
+    }
+    .item_container{
+        height: 55px;
+        width: 765px;
+    }
+    .resume_buttons a{
+        font-size: 26px;
+    }
+    .resume_buttons button{
+        font-size: 17px;
+        height: 47px;
+        width: 231px;
+    }
+    .titles{
+        width: 766px
+    }
+    
 }
 
 
@@ -221,6 +242,11 @@
     .normal_login_hr{
         right: 8%;
     }
+    .resumen_wrapper{
+        padding: 0 15%;
+        width: 70%;
+    }
+    
 }
 
 
@@ -280,6 +306,23 @@
     .normal_login_hr {
         right: 4%;
     }
+
+    .resumen_wrapper p {
+        font-size: 19px;
+    }
+    .item_container{
+        width: 644px;
+    }
+    .titles{
+        width: 647px;
+    }
+    .titles p{
+        margin-right: 106px;
+    }
+    .resumen_wrapper {
+        padding: 0 7%;
+        width: 86%;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -337,6 +380,31 @@
     .formulario{
         padding-bottom: 68px;
     }
+
+    .item_container {
+        width: 95%;
+        height: 71px;
+    }
+    .resumen_wrapper p {
+        font-size: 18px;
+        
+    }
+    .buttons_container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .resume_buttons button {
+        margin: 29px;
+        font-size: 17px;
+        height: 51px;
+        width: 278px;
+    }
+    .titles{
+        width: 95%;
+    }
+    
+    
 }
 
 @media screen and (max-width: 600px){
@@ -379,5 +447,50 @@
     }
     .progress_wrapper {
         width: 90%;
+    }
+    .resumen_container {
+        margin-top: -23px;
+    }
+    .resumen_wrapper p {
+        font-size: 15px;
+    }
+    .resume_buttons button{
+        font-size: 15px;
+        height: 47px;
+        width: 283px
+    }
+    .resumen_wrapper p{
+        margin-left: 37px;
+    }
+    .resume_buttons a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .resumen_wrapper {
+        padding: 0 4%;
+        width: 93%;
+    }
+    .titles {
+        width: 96%;
+    }
+    .resumen_wrapper {
+        padding: 0 3%;
+        width: 94%;
+    }
+    .resumen_wrapper p {
+        font-size: 13px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .resume_details img{
+        margin-right: 29px;
+    }
+    .titles p{
+        margin: 36px 69px 19px 32px;
+    }
+    #resume_cancel_btn{
+        margin-top: 11px;
     }
 }
