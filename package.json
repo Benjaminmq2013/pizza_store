@@ -1,0 +1,19 @@
+{
+  "name": "pizza_store",
+  "version": "1.0.0",
+  "description": "A web site to order and create your own pizza.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjaminmq2013/pizza_store.git"
+  },
+  "author": "Adriel Benjamín Martínez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Benjaminmq2013/pizza_store/issues"
+  },
+  "homepage": "https://github.com/Benjaminmq2013/pizza_store#readme"
+}

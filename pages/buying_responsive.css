@@ -568,3 +568,21 @@
         margin-top: 11px;
     }
 }
+
+@media screen and (max-width: 375px){
+    .payment_value {
+        font-size: 31px;
+    }
+    .payment_buttons {
+        font-size: 13px;
+        height: 42px;
+        width: 295px;
+    }
+    .links_container {
+        width: 295px;
+    }
+    .links_container a {
+        height: 33px;
+        width: 134px;
+    }
+}
