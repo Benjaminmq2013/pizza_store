@@ -196,9 +196,9 @@
 
 
 
-                <div class="resumen_container">
+                <!-- RESUMEN DE LA COMPRA -->
+                <div class="resumen_container display-none"> <!-- <= ELIMINAR DISPLAY-NONE -->
 
-                    
 
                     <div class="resumen_wrapper">
 
@@ -252,12 +252,30 @@
                             <div class="buttons_container">
                                 <button class="resume_payment_btn">Pagar</button>
                                 <button class="resume_cancel_css" id="resume_cancel_btn">Cancelar</button>
-                            </div>
-                                
+                            </div>                                
 
                         </div>
                                      
                     </div>
+                </div>
+
+
+
+                <!-- PAYMENT SECTION -->
+                <div class="payment_section">
+                    <div class="payment_container">
+                        <h2 class="payment_value">$59:99</h2>
+
+                        <button class="payment_buttons paypal_btn"> <img src="../images/paypal_logo.png" alt=""> </button>
+                        <button class="payment_buttons payment_card_btn"><img src="../images/card_icon.png" alt=""> Debit or Credit Card</button>
+
+                        <div class="links_container">
+                            <a class="continue_button"  href="">Cancelar</a>
+                            <a class="cancel_button" href="">Continuar</a>
+                        </div>
+                    </div>
+                    
+
                 </div>
 
 

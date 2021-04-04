@@ -71,6 +71,26 @@
     .login_with_hr {
         right: 178px;
     }
+    .payment_container{
+        margin-top: -106px;
+    }
+    .payment_value{
+        font-size: 45px;
+    }
+    .payment_buttons {
+        font-size: 25px;
+        height: 63px;
+        width: 504px;
+    }
+    .links_container a {
+        height: 50px;
+        width: 217px;
+    }
+    .links_container {
+        width: 504px;
+    }
+    
+    
     
 }
 
@@ -232,6 +252,25 @@
         width: 766px
     }
     
+
+    .payment_buttons {
+        font-size: 19px;
+        height: 53px;
+        width: 424px;
+        margin: 16px;
+    }
+    .payment_value {
+        font-size: 37px;
+    }
+    .links_container {
+        width: 424px;
+    }
+    .links_container a {
+        height: 42px;
+        width: 190px;
+        font-size: 15px;
+    }
+    
 }
 
 
@@ -322,6 +361,26 @@
     .resumen_wrapper {
         padding: 0 7%;
         width: 86%;
+    }
+    .continue_button{
+        margin-top: 27px;
+    }
+    .payment_value {
+        font-size: 34px;
+    }
+    .payment_buttons {
+        font-size: 17px;
+        height: 48px;
+        width: 369px;
+    }
+    .links_container{
+        width: 369px;
+    }
+    .links_container a {
+        height: 35px;
+        width: 166px;
+        font-size: 13px;
+        border-radius: 8px;
     }
 }
 
@@ -464,6 +523,21 @@
     }
     .resume_buttons a {
         font-size: 24px;
+    }
+    .payment_container {
+        margin-top: -17px;
+    }
+    .payment_buttons {
+        font-size: 14px;
+        height: 44px;
+        width: 340px;
+    }
+    .links_container {
+        width: 340px;
+    }
+    .links_container a {
+        height: 34px;
+        width: 155px;
     }
 }
 
