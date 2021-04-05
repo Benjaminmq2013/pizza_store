@@ -49,14 +49,15 @@
         </section>
 
         <section class="buying_content">
-            <div class="buying_title display-none">
-                <h2>RESUMEN</h2>
+
+            <div class="buying_title "> <!-- <= ELIMINAR DISPLAY-NONE -->
+                <h2>¿Qué desea?</h2>
             </div>
 
             <!-- ESTE CONTENEDOR CAMBIA SU CONTENIDO DINAMICAMENTE -->
             <div class="products_selection_wrapper">
 
-                <div class="products_selection_container display-none"> <!-- <= ELIMINAR DISPLAY-NONE -->
+                <div class="products_selection_container "> <!-- <= ELIMINAR DISPLAY-NONE -->
                     <div class="product_container product_1 fase_1">
                         <figure>
                             <img src="../images/pizza.png" alt="">
@@ -189,7 +190,7 @@
                     </div>
 
                     <div class="skip_login_container">
-                        <a class="skip_login" href="">OMITIR LOGIN</a>
+                        <a class="skip_login" >OMITIR LOGIN</a>
                     </div>
 
                 </div>
@@ -270,8 +271,8 @@
                         <button class="payment_buttons payment_card_btn"><img src="../images/card_icon.png" alt=""> Debit or Credit Card</button>
 
                         <div class="links_container">
-                            <a class="continue_button"  href="">Cancelar</a>
-                            <a class="cancel_button" href="">Continuar</a>
+                            <a class="continue_button"  >Continuar</a>
+                            <a class="cancel_button" >Cancelar</a>
                         </div>
                     </div>                    
 
@@ -281,7 +282,7 @@
 
                 <!-- SUCCESS SCREEN -->
 
-                <div class="success_container">
+                <div class="success_container display-none">
                     <img class="sucess_icon" src="../images/sucess_icon.png" alt="">
                     <h2 class="sucess_text">¡Pedido exitoso!</h2>
                     <p class="sucess_quote">Recibirás tu orden en aproximadamente 30 minutos </p>
@@ -296,7 +297,8 @@
 
             </div>
 
-            <div class="controls display-none"> <!-- <= ELIMINAR DISPLAY NONE -->
+            <!-- Controles al pié de página -->
+            <div class="controls "> <!-- <= ELIMINAR DISPLAY NONE -->
                 <a class="skip_step" href="">Saltar este paso</a>
                 <a class="cancel_button" href="../index.html">Cancelar</a>
             </div>

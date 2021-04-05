@@ -636,4 +636,18 @@
         height: 33px;
         width: 134px;
     }
+    .sucess_quote {
+        font-size: 13px;
+    }
+    .sucess_text {
+        font-size: 18px;
+    }
+    .sucess_icon {
+        height: 109px;
+    }
+    .new_order_btn {
+        width: 233px;
+        height: 37px;
+        font-size: 14px;
+    }
 }

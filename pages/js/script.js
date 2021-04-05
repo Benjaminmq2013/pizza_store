@@ -1,3 +1,7 @@
+// Navegación 1:
+// Este archivo define la lista de productos y lláma a navegacion.js y animations.js para ir al siguiente paso.
+
+
 "use-strict"
 const product_1 = document.querySelector(".product_1")
 const product_2 = document.querySelector(".product_2")
@@ -102,6 +106,7 @@ product_9.addEventListener("click", ()=>{
     definir_pedido_4("Palitroques")
 })
 
+
 let fase_4_completa = false;
 
 function definir_pedido_4(pedido){ 
@@ -115,4 +120,51 @@ function definir_pedido_4(pedido){
     } else if (fase_4_completa == true){
         console.log("No clickees más veces aquí")
     }
+}
+
+
+
+// AQUÍ INICIA LA FASE 5 - LOGIN
+const skip_login = document.querySelector(".skip_login")
+
+skip_login.addEventListener("click", ()=>{
+    iniciar_sesion()
+});
+
+function iniciar_sesion(){    
+        //Origen en navigation.js
+        compra_abrir_paso_6()
+}
+
+
+
+
+
+// AQUÍ INICIA LA FASE 6 - RESUME
+        
+const resume_payment_btn = document.querySelector(".resume_payment_btn")
+
+resume_payment_btn.addEventListener("click", ()=>{
+    definir_resumen()
+})
+
+function definir_resumen(){
+    //Origen en navigation.js
+    compra_abrir_paso_7()
+}
+
+
+
+
+// AQUÍ INICIA LA FASE 7 - payment
+        
+const continue_button = document.querySelector(".continue_button")
+
+continue_button.addEventListener("click", ()=>{
+    validar_pago()
+})
+
+function validar_pago(){
+    //Origen en navigation.js
+    compra_abrir_paso_8()
 }

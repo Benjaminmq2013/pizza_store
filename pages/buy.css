@@ -336,18 +336,6 @@ p{
 
 
 
-/* ANIMACIONES PARA FUNCTIONES */
-.display-none{
-    display: none;
-}
-
-.display-block{
-    display: block;
-}
-
-.display-flex{
-    display: flex;
-}
 
 
 
@@ -364,6 +352,7 @@ p{
     font-size: 31px;
     font-weight: 600;
     font-family:'Segoe UI', Verdana, sans-serif;
+    text-decoration: underline;
 }
 
 
@@ -705,4 +694,25 @@ p{
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+/* ANIMACIONES PARA FUNCTIONES */
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.display-flex{
+    display: flex;
 }
