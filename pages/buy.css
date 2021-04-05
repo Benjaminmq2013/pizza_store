@@ -353,6 +353,7 @@ p{
     font-weight: 600;
     font-family:'Segoe UI', Verdana, sans-serif;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -532,6 +533,7 @@ p{
     height: 19px;
     margin-right: 50px;
     transition: .3s;
+    cursor: pointer;
 }
 
 .titles{
