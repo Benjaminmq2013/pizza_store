@@ -665,6 +665,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items:center;
+    margin-top: 98px;
 }
 .sucess_icon{
     height: 173px;
@@ -691,5 +692,17 @@ p{
 }
 
 .new_order_btn{
-    
+    background-color: #1758F1;
+    width: 305px;
+    height: 52px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
 }

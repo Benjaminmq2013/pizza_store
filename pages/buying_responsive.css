@@ -89,9 +89,21 @@
     .links_container {
         width: 504px;
     }
-    
-    
-    
+    .success_container {
+        margin-top: 24px;
+    }
+    .sucess_icon {
+        height: 161px;
+    }
+    .sucess_text {
+        font-size: 28px;
+    }    
+    .sucess_quote {
+        font-size: 23px;
+    }
+    .new_order_btn{
+        margin-top: 62px;
+    }
 }
 
 @media screen and (max-width: 1366px){
@@ -268,6 +280,26 @@
     .links_container a {
         height: 42px;
         width: 190px;
+        font-size: 15px;
+    }
+    .sucess_icon {
+        height: 125px;
+    }
+    .sucess_text {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .sucess_quote {
+        font-size: 16px;
+    }
+    .success_container {
+        margin-top: 31px;
+    }
+    .new_order_btn{
+        width: 276px;
+        height: 41px;
+        margin-top: 46px;
         font-size: 15px;
     }
     
@@ -462,7 +494,14 @@
     .titles{
         width: 95%;
     }
-    
+    .new_order_btn{
+        width: 276px;
+        height: 39px;
+        font-size: 15px;
+    }
+    .success_container{
+        margin-bottom: 100px;
+    }
     
 }
 
@@ -566,6 +605,18 @@
     }
     #resume_cancel_btn{
         margin-top: 11px;
+    }
+    .sucess_text{
+        font-size: 19px;
+    }
+    .sucess_icon{
+        height: 113px;
+    }
+    .sucess_quote {
+        font-size: 14px;
+    }
+    .success_container {
+        margin-bottom: 100px;
     }
 }
 
