@@ -71,8 +71,8 @@
     .login_with_hr {
         right: 178px;
     }
-    .payment_container{
-        margin-top: -106px;
+    .payment_container {
+        margin-top: 11px;
     }
     .payment_value{
         font-size: 45px;
@@ -88,10 +88,7 @@
     }
     .links_container {
         width: 504px;
-    }
-    .success_container {
-        margin-top: 24px;
-    }
+    }    
     .sucess_icon {
         height: 161px;
     }
@@ -294,7 +291,7 @@
         font-size: 16px;
     }
     .success_container {
-        margin-top: 31px;
+        margin-top: -48px;
     }
     .new_order_btn{
         width: 276px;
@@ -302,7 +299,49 @@
         margin-top: 46px;
         font-size: 15px;
     }
-    
+    .products_selection_wrapper {
+        margin-top: -22px;
+        margin-bottom: 35px;
+    }
+    .product_4 img{
+        margin-top: 28px;
+    }
+    .separator_line{
+        top: 34%;
+    }
+    #cheese_edge_image{
+        margin-top: 37px;
+    }
+    .product_4 p {
+        margin-top: 34px;
+    }
+    #cheese_edge_text {
+        margin-top: 42px;
+    }
+    #ham_pizza_image {
+        margin-top: 32px;
+    }
+    #pepperoni_ingredient_image{
+        margin-top: 44px;
+    }
+    .product_6 p {
+        margin-top: 40px;
+    }
+    #pepperoni_pizza_text {
+        margin-top: 49px;
+    }
+    .product_8 img{
+        margin-top: 26px;
+    }
+    #palitos_image {
+        margin-top: 23px;
+    }
+    .product_8 p {
+        margin-top: 33px;
+    }
+    #palitos_image_text {
+        margin-top: 29px;
+    }
 }
 
 
@@ -577,6 +616,21 @@
     .links_container a {
         height: 34px;
         width: 155px;
+    }
+    .products_selection_container_2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+    }
+    .products_selection_container_3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+    }
+    .products_selection_container_4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
     }
 }
 
