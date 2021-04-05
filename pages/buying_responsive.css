@@ -632,6 +632,9 @@
         flex-direction: column;
         margin-top: 33px;
     }
+    .success_container {
+        margin-top: 49px;
+    }
 }
 
 @media screen and (max-width: 500px){
