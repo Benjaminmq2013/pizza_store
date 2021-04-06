@@ -205,10 +205,7 @@
     
 }
 
-@media screen and (max-width: 900px){
-    body{
-        border: 1px solid blue;
-    }
+@media screen and (max-width: 900px){    
     .navbar{
         width: 70.2%;
         height: 65px;
