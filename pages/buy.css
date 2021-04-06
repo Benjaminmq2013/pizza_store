@@ -94,6 +94,7 @@ p{
     align-items: center;
     flex-direction: column;
     position: relative;
+    cursor: pointer;
 }
 .product_container figure{
     display: inherit;
@@ -580,13 +581,14 @@ p{
     background-color: #1758F1;
     color: white;
     border: 0;
+    cursor: pointer;
 }
 
 .resume_cancel_css{
     background-color: white;
     border: 3px solid #F11717;
     color: #F11717;
-
+    cursor: pointer;
 }
 .payment_value{
     font-size: 48px;
