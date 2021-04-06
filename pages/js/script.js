@@ -192,3 +192,9 @@ function resumir_esta_compra(resumen){
     total_esta_compra.innerHTML = ("Total: $" + total.toFixed(2))
 
 }
+
+
+const register_button = document.getElementById("register_button");
+register_button.addEventListener("click", function (event){
+    event.preventDefault()
+})
