@@ -174,10 +174,6 @@ function validar_pago(){
 
 // RESUMIENTO LA COMPRA
 
-// const pedido_0 = document.querySelector(".pedido_1")
-// const pedido_1 = document.querySelector(".pedido_2")
-// const pedido_2 = document.querySelector(".pedido_3")
-// const pedido_3 = document.querySelector(".pedido_4")
 
 let total = 0;
 
@@ -193,6 +189,6 @@ function resumir_esta_compra(resumen){
         
     }
     let total_esta_compra = document.querySelector(".total_esta_compra")
-    total_esta_compra.innerHTML = ("Total: $" + total)
+    total_esta_compra.innerHTML = ("Total: $" + total.toFixed(2))
 
 }
