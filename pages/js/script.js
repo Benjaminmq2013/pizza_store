@@ -127,10 +127,10 @@ function definir_pedido_4(pedido){
 
 // AQUÍ INICIA LA FASE 5 - LOGIN
 const skip_login = document.querySelector(".skip_login")
+const register_btn = document.querySelector(".register_btn")
 
-skip_login.addEventListener("click", ()=>{
-    iniciar_sesion()
-});
+register_btn.addEventListener("click", iniciar_sesion)
+skip_login.addEventListener("click", iniciar_sesion);
 
 function iniciar_sesion(){    
         //Origen en navigation.js

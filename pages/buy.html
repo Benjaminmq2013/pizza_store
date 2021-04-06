@@ -164,9 +164,19 @@
 
                         <div class="normal_login">
                             <form class="formulario" action="">
-                                <input type="text" placeholder="Nombre">
-                                <input type="text" placeholder="Correo">
-                                <input type="text" placeholder="Teléfono">
+                                <label for="name">
+                                    <input id="name" type="name" placeholder="Nombre" autocomplete="name">
+                                </label>
+
+                                <label for="email">
+                                    <input id="email" type="email" placeholder="Correo" autocomplete="email">
+                                </label>
+
+                                <label for="tel">
+                                    <input id="tel" type="tel" placeholder="Teléfono" autocomplete="tel">
+                                </label>
+
+
                                 <button class="register_btn">login</button>
                                 <hr class="normal_login_hr">
                             </form>
