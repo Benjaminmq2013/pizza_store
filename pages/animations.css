@@ -54,3 +54,24 @@
         opacity:1;
     }
 }
+
+
+
+/* ANIMACIONES PARA ELIMINAR ELEMENTOS DE LA COMPRA */
+.eliminate_product{
+    animation-name: eliminate_product;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1; 
+}
+
+@keyframes eliminate_product{
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        width: 0;
+        opacity: 1;
+    }
+}

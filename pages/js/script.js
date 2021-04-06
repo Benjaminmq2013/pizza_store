@@ -198,3 +198,58 @@ const register_button = document.getElementById("register_button");
 register_button.addEventListener("click", function (event){
     event.preventDefault()
 })
+
+
+
+// Botones para eliminar productos del resumen.
+
+eliminate_button_1 = document.getElementById("eliminate_button_1")
+eliminate_button_2 = document.getElementById("eliminate_button_2")
+eliminate_button_3 = document.getElementById("eliminate_button_3")
+eliminate_button_4 = document.getElementById("eliminate_button_4")
+
+const item_one = document.querySelector(".item_one")
+const item_two = document.querySelector(".item_two")
+const item_three = document.querySelector(".item_three")
+const item_four = document.querySelector(".item_four")
+
+eliminate_button_1.addEventListener("click", ()=>{
+    item_one.classList.add("eliminate_product")
+    setTimeout( function (){
+        item_one.classList.add("display-none")
+    }, 500)
+
+    esta_compra[0].precio = 0;
+    total = 0;
+    resumir_esta_compra(esta_compra)
+})
+eliminate_button_2.addEventListener("click", ()=>{
+    item_two.classList.add("eliminate_product")
+    setTimeout( function (){
+        item_two.classList.add("display-none")
+    }, 500)
+
+    esta_compra[1].precio = 0;
+    total = 0;
+    resumir_esta_compra(esta_compra)
+})
+eliminate_button_3.addEventListener("click", ()=>{
+    item_three.classList.add("eliminate_product")
+    setTimeout( function (){
+        item_three.classList.add("display-none")
+    }, 500)
+
+    esta_compra[2].precio = 0;
+    total = 0;
+    resumir_esta_compra(esta_compra)
+})
+eliminate_button_4.addEventListener("click", ()=>{
+    item_four.classList.add("eliminate_product")
+    setTimeout( function (){
+        item_four.classList.add("display-none")
+    }, 500)
+
+    esta_compra[3].precio = 0;
+    total = 0;
+    resumir_esta_compra(esta_compra)
+})

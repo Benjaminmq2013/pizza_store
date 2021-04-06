@@ -514,6 +514,7 @@ p{
     justify-content: space-between;
     margin: 10px 0;
     transition-duration: .3s;
+    overflow: hidden;
 }
 .item_container:hover{
     transform:scale(1.04);    
