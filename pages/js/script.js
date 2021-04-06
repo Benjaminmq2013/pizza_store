@@ -8,13 +8,13 @@ const product_2 = document.querySelector(".product_2")
 const product_3 = document.querySelector(".product_3")
 
 product_1.addEventListener("click", ()=>{
-    definir_pedido_1("Pizza grande")
+    definir_pedido_1({nombre:"Pizza grande", precio: 16.99})
 })
 product_2.addEventListener("click", ()=>{
-    definir_pedido_1("Combo grande")
+    definir_pedido_1({nombre:"Combo Grande", precio: 24.77})
 })
 product_3.addEventListener("click", ()=>{
-    definir_pedido_1("Crear Pizza")
+    definir_pedido_1({nombre:"Crear Pizza", precio: 29.89})
 })
 
 let esta_compra = []
@@ -45,10 +45,10 @@ const product_4 = document.querySelector(".product_4")
 const product_5 = document.querySelector(".product_5")
 
 product_4.addEventListener("click", ()=>{
-    definir_pedido_2("Masa Original")
+    definir_pedido_2({nombre:"Masa Original", precio: 0})
 })
 product_5.addEventListener("click", ()=>{
-    definir_pedido_2("Orilla de queso")
+    definir_pedido_2({nombre:"Orilla de queso", precio: 2.99})
 })
 
 let fase_2_completa = false;
@@ -73,10 +73,10 @@ const product_6 = document.querySelector(".product_6")
 const product_7 = document.querySelector(".product_7")
 
 product_6.addEventListener("click", ()=>{
-    definir_pedido_3("Jamón")
+    definir_pedido_3({nombre:"Jamón", precio: 2.83})
 })
 product_7.addEventListener("click", ()=>{
-    definir_pedido_3("Pepperoni")
+    definir_pedido_3({nombre:"Pepperoni", precio: 3.00})
 })
 
 let fase_3_completa = false;
@@ -100,10 +100,10 @@ const product_8 = document.querySelector(".product_8")
 const product_9 = document.querySelector(".product_9")
 
 product_8.addEventListener("click", ()=>{
-    definir_pedido_4("Papas")
+    definir_pedido_4({nombre:"Papas", precio: 3.69})
 })
 product_9.addEventListener("click", ()=>{
-    definir_pedido_4("Palitroques")
+    definir_pedido_4({nombre:"Palitroques", precio: 7.96})
 })
 
 
@@ -117,6 +117,7 @@ function definir_pedido_4(pedido){
     
         //Origen en navigation.js
         compra_abrir_paso_5()
+        resumir_esta_compra(esta_compra)
     } else if (fase_4_completa == true){
         console.log("No clickees más veces aquí")
     }
@@ -167,4 +168,31 @@ continue_button.addEventListener("click", ()=>{
 function validar_pago(){
     //Origen en navigation.js
     compra_abrir_paso_8()
+}
+
+
+
+// RESUMIENTO LA COMPRA
+
+// const pedido_0 = document.querySelector(".pedido_1")
+// const pedido_1 = document.querySelector(".pedido_2")
+// const pedido_2 = document.querySelector(".pedido_3")
+// const pedido_3 = document.querySelector(".pedido_4")
+
+let total = 0;
+
+function resumir_esta_compra(resumen){
+    for (let i = 0; i < resumen.length; i++) {
+        let pedido_container = document.querySelector(".pedido" + (i+1))
+        let item_price = document.querySelector(".item_price_" + (i+1))
+
+        pedido_container.innerHTML = resumen[i].nombre;
+        item_price.innerHTML = ("$" + resumen[i].precio);
+
+        total =total + resumen[i].precio;    
+        
+    }
+    let total_esta_compra = document.querySelector(".total_esta_compra")
+    total_esta_compra.innerHTML = ("Total: $" + total)
+
 }
