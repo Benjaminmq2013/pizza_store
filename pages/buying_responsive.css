@@ -104,6 +104,9 @@
     .google_login img{
         width: 47px;
     }
+    .paypal_btn img{
+        width: 95px;
+    }
 }
 
 @media screen and (max-width: 1366px){
@@ -351,6 +354,12 @@
     .google_login img{
         width: 32px;
     }
+    .paypal_btn img{
+        width: 80px;
+    }
+    .payment_card_btn img{
+        width: 32px;
+    }
 }
 
 
@@ -463,6 +472,12 @@
         border-radius: 8px;
     }
     .google_login img{
+        width: 30px;
+    }
+    .paypal_btn img{
+        width: 72px;
+    }
+    .payment_card_btn img{
         width: 30px;
     }
 }
@@ -657,7 +672,12 @@
     .success_container {
         margin-top: 49px;
     }
+    .paypal_btn img{
+        width: 65px;
+    }
 }
+
+
 @media screen and (max-width: 480px){
     .footer{
         padding: 0 0 0 20%;
@@ -747,5 +767,8 @@
     }
     .footer{
         padding: 0px 0 0 11%;
+    }
+    .paypal_btn img{
+        width: 62px;
     }
 }

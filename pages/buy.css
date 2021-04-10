@@ -635,6 +635,7 @@ p{
 }
 .paypal_btn img{
     height: 42%;
+    width: 105px;
 }
 
 .payment_card_btn{
@@ -651,6 +652,7 @@ p{
 .payment_card_btn img{
     height: 42%;
     margin-right: 10px;
+    width: 36px;
 }
 .continue_button{
     background-color: #1758F1;
