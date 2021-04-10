@@ -316,8 +316,8 @@
         width: 70%;
         top: 576px
     }
-    .red_background img{
-        height: auto;
+    .red_background img {
+        height: 1342px;
     }
     .create_icon{
         width: 65px;
@@ -350,9 +350,11 @@
     .pick_it_up{
         width: 61%;
         margin-top: 34px;
+        background-color: #F17F28;
     }
     .offer_container{
         width: 68%;
+        margin-top: 139px;
     }
     .potatoes_image img{
         margin-left: 0;
@@ -408,7 +410,7 @@
         height: 77px;
     }
     .red_background img {
-        height: 1133px;
+        height: 1201px;
     }    
     .number_of_people {
         height: 47px;
@@ -426,7 +428,7 @@
     }
     .offer_container{
         height: 346px;
-        margin-top: 83px;
+        margin-top: 121px;
     }
     .pizza_tag img {
         height: 46px;
@@ -460,5 +462,8 @@
     }
     .footer{
         padding: 0px 0 0 11%;
+    }
+    .red_background img{
+        height: 1123px;
     }
 }
