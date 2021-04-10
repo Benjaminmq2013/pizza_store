@@ -428,6 +428,7 @@ p{
 }
 .facebook_login img{
     height: 73%;
+    width: 25px;
 }
 
 .google_login{
@@ -448,6 +449,7 @@ p{
 
 .google_login img{
     height: 73%;
+    width: 47px;
 }
 .google_figure{
     height: 100%;

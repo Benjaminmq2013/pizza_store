@@ -101,6 +101,9 @@
     .new_order_btn{
         margin-top: 62px;
     }
+    .google_login img{
+        width: 47px;
+    }
 }
 
 @media screen and (max-width: 1366px){
@@ -342,6 +345,12 @@
     #palitos_image_text {
         margin-top: 29px;
     }
+    .facebook_login img {
+        width: 17px;
+    }
+    .google_login img{
+        width: 32px;
+    }
 }
 
 
@@ -452,6 +461,9 @@
         width: 166px;
         font-size: 13px;
         border-radius: 8px;
+    }
+    .google_login img{
+        width: 30px;
     }
 }
 
