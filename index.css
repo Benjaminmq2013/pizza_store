@@ -167,7 +167,6 @@ p{
     justify-content: center;
     width: 90%;
     padding-top: 40px;
-    cursor: pointer;
 }
 
 .linea{    
@@ -270,7 +269,7 @@ p{
 }
 .combo_images{
     margin-top: 40px;
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 .potatoes_image{
@@ -293,7 +292,6 @@ p{
     border-radius: 16px;
     margin-top: 4%;
     margin-left: 5%;
-    cursor: pointer;
 
     text-decoration: none;
     display: flex;
