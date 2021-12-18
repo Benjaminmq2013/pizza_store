@@ -8,8 +8,8 @@
 
 body{
     margin: 0;
-    font-family: "segoe-script";  
-    background-color: #ffdab8;  
+    font-family: 'Segoe UI';  
+    background-color: #FEFDFC;  
 }
 
 figure{
@@ -24,313 +24,241 @@ p{
     position: relative;
     z-index: 3;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .navbar{
-    background-color: rgba(236, 252, 255, 0.89);
-    height: 119px;
-    width: 58.2%;
-    border-bottom-left-radius: 23px;
-    border-bottom-right-radius: 23px;
+    background-color: #fefefe;
+    height: 84px;
+    width: 78.2%;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
     font-size: 29px;    
     display: flex;
-    box-shadow: 0px 0px 7px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
 }
-.red_background{
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    left: 0;
-    width: 100vw;
-}
-.red_background img{
-    width: 100%;
-}
+
 .nav_text{
     font-weight: 600;
-    padding-right: 4.5%;
+    padding-right: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
 }
 .nav_text a{
-    color: #B40000;
+    font-size: 20px;
+    color: #D87326;
     text-decoration: none;
+    padding: 22px 0;
+    border-bottom: 3px solid #D87326;
+    margin-right: 52px;
 }
 .nav_logo{
-    padding-left: 10px;
+    padding-left: 74px;
+    display: flex;
+    align-items: center;
+    width: 50%;
 }
 .nav_logo img{
-    height: 93px;
-    width: 113px;
+    height: 46px;
+    width: 229px;
+    cursor: pointer;
 }
-.nav_logo, .nav_text{
+.nav_logo a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-
+    height: 100%;
 }
+.hero{
+    background-image: url("./images/hero.jpg");
+    background-size: 100%;
+    background-position-y: 80%;
+    width: 78.2%;
+    height: 238px;
+    margin-top: 25px;
+    border-radius: 19px;
+    position: relative;
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: inherit;
+    z-index: 1;
+}
+.hero h1{
+    color: #fefefe;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+}
 /* *************** MAIN */
 #main{
     display: flex;
-    margin-top: 30px;
-    
+    justify-content: center;
+    margin-top: 25px;
 }
-.offer_var{
-    width: 20%;
-    position: relative;
-    z-index: 3;
-}
+
 .main_section{
-    width: 60%;
-    position: relative;
-    z-index: 3;
-    margin-right: 20%;
-    margin-left: 5.5%;
+    width: 78.2%;
+    padding-bottom: 32px;
+    position: relative;    
+    background-color: #fefefe;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+    border-radius: 19px;
 }
 
-.offer_container{
-    background-color:#ECFCFF;
-    width: 66%;
-    height: 588px;
-    border-radius: 47px;
-    margin-left: 10%;
-    margin-left: 21%;
-    margin-top: 22%;
-    padding: 61px 23px 47px 23px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.number_of_people{
-    background-color: #FF1C1C;
-    border-radius: 27px;
+.menu_title_container{
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    color: white;
-    height: 104px;
-    width: 92%;
-    font-size: 26px;
-    box-shadow: 0px 0px 7px black;
+    margin-bottom: 32px;
 }
-.offer_pizza_image img{
-    height: 132px;
-    margin-top: 28px;
-}
-.first_offer_text{
-    font-size: 26px;
-    color: #474747;
-    text-align: center;
-    font-weight: 600;
-}
-.more_combos{
-    color: white;
-    text-align: center;
-    font-weight: 600;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 22px;
-
-    width: 93.5%;
-    height: 62px;
-    border: none;
-    background-color: #F17F28;
-    border-radius: 16px;
-    margin-top: 20px;
-    outline: none;
+.menu_title{
+    background-color: #FBFBFB;
+    border-radius: 36px;
+    width: 405px;
+    height: 55px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.pizza_tag{
-    width: 100%;
-    margin-top: auto;
+    margin-top: 36px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
 }
-.pizza_tag img{
-    height: 90px;
+.menu_title h2{
+    color: #8E8E8E;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.menu_title_icon{
+    height: 38px;
+    width: 47px;
+    margin-right: 15px;
+}
+.pizzas_menu{
+    padding: 0 62px; 
     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
 }
-.pedido_logo img{
-    height: 74px;
-    width: 74px;
-    margin-right: 20px;
-}
-.pedido_logo{
-    font-size: 22px;
-    color: #FFF48F;
+.pizza_option{
+    height: 96px;
+    width: 91.7%;
+    margin-bottom: 31px;
+    background-color: rgb(240, 163, 21);
+    background-size: 100%;
+    background-position-x: center;
+    border-radius: 19px;
+    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    padding-top: 40px;
-}
 
-.linea{    
-    height: 3px;
-    background-color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+.pizza_option::before{
+    content: "";
     position: absolute;
-    z-index: 3;
-    border: 0;
-}
-.linea_horizontal{
-    width: 100%;
-    top: 150px;
+    top: 0;
+    bottom: 0;
     left: 0;
+    right: 0;
+    background-color: rgba(10, 10, 10, 0.40);
+    border-radius: inherit;
+    z-index: 1;
 }
-.linea_vertical{
-    transform: rotate(90deg);
-    width: 500px;    
-    top: 442px;
-    left: 25%;
-
+.pizza_option:hover{
+    background-size: 110%;  
 }
-.main_content{
-    display: flex;
+.pizza_option_title{
     position: relative;
-    z-index: 3;
-    padding-top: 60px;
-}
-
-.create_pizza_container{
-    width: 50%;
-}
-.combo_pizza_container{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.create_image_container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.create_icon{
-    margin-left: 12.8%;
-    margin-top: 17px;
-    height: 64px;
-    width: 65px;
-}
-.create_image{
-    width: 57%;
-    margin-top: -19px;
-    
-}
-.create_pizza_text{
-    color: #474747;
-    text-align: center;
-    font-size: 30px;
+    z-index: 2;
+    font-size: 27px;
     font-weight: 600;
-    margin-top: 30px;
+    color: #FCFCFC;
 }
 
-.primer_combo_text{
-    color: #FFFFFF;
-    font-size: 27px;
-    text-align: center;
-    margin-top: 17px;
-}
-.combo_pizza_image{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.combo_pizza_image img{
-    width: 48.35%;
-    max-height: 166px;
+
+.orillas_option{
+    background-image: url("./images/orilla_de_queso.jpg");
+    background-position-y: 75%;    
 }
 
-.combo_extras{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.pepperoni_option{
+    
+    background-image: url("./images/pepperoni.png");
+    background-position-y: 42%;
+}
+.ham_option{    
+    background-image: url("./images/jamon.png");
+    background-position-y: 60%;
 }
 
-.linea_h_combos{
-    width: 454px;
-    margin-top: 30px;
-    background-color: #3D2A2A;
+.garlick_bread_option{    
+    background-image: url("./images/garlick_bread.png");
+    background-position-y: 8%;
 }
-.linea_v_combos{
-    width: 134px;
-    margin-top: 30px;
-    background-color: #3D2A2A;
-    transform: rotate(90deg);
-    left: 37%;
-    top: 42%;
+.order_option{
+    background-image: url("./images/order.jpg");
+    background-position-y: 52%;
 }
-.combo_images{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-}
-.potatoes_image{
-    width: 50%;
-}
-.potatoes_image img{
-    max-height: 167px;
-}
-.pan_ajo_image img{
-    max-width: 216px;
-    max-height: 114px;
-}
-.pick_it_up{
-    background-color:#FF2121;
-    height: 73px;
-    width: 97%;
-    font-size: 27px;
-    color: white;
-    border: none;
-    border-radius: 16px;
-    margin-top: 4%;
-    margin-left: 5%;
-
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Noto Sans', sans-serif;
-}
-
-.footer_pizza_icon{
-     position: fixed;
-     bottom: 0;
-     right: 0;
-     height: 84px;   
-     margin-bottom: 114px;
-     margin-right: 73px;
+.palitroques_option{
+    background-image: url("./images/palitroques.jpg");
+    background-position-y: 59%;
 }
 
 
 /* *************************  FOOTER  */
 .footer{
-    height: 100px;
-    background-color: #F33A3A;
-    margin-top: 100px;
+    margin-top: 63px;
     position: relative;
-    padding: 0 6%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_container{
+    background-color: #FEFEFE;
+    width: 78.2%;
+    height: 84px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
 }
 .footer_items a{
     font-family: 'Noto Sans', sans-serif;
-    color: rgb(252, 252, 252);
+    color: #4B4B4B;
+    font-size: 15px;
+    font-weight: 600;
     text-decoration: none;
 }
 .footer_items{
-    
     display: flex;
     flex-direction: column;
-
 }
 
+.display-none{
+    display: none;
+}
