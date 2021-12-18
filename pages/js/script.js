@@ -11,10 +11,10 @@ product_1.addEventListener("click", ()=>{
     definir_pedido_1({nombre:"Pizza grande", precio: 16.99})
 })
 product_2.addEventListener("click", ()=>{
-    definir_pedido_1({nombre:"Combo Grande", precio: 24.77})
+    definir_pedido_1({nombre:"Combo Grande", precio: 17.77})
 })
 product_3.addEventListener("click", ()=>{
-    definir_pedido_1({nombre:"Crear Pizza", precio: 29.89})
+    definir_pedido_1({nombre:"Crear Pizza", precio: 18.89})
 })
 
 let esta_compra = []

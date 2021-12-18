@@ -71,6 +71,8 @@ p{
 }
 .active_level{    
     background-color: #26A500;
+    transform:scale(1.2);
+    transition: .5s;
 }
 .back_button_container{
     display: flex;
@@ -267,6 +269,31 @@ p{
     margin-top: 59px;
 
 }
+
+.price_phill{
+    color: white;
+    height: 29px;
+    min-width: 31px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: -35px;
+}
+.blue_phill{
+    background-color: #2E74CF;
+}
+.red_phill{
+    background-color: #D83A3A;
+}
+.green_phill{
+    background-color: #35A72C;
+}
+
 .products_selection_container_2{    
     justify-content: center;
     align-items: center;
@@ -746,6 +773,12 @@ p{
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+.footer_items img{
+    height: 100%;
 }
 .footer_items{
     display: flex;

@@ -253,6 +253,17 @@ p{
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+.footer_items img{
+    margin-right: 3px;
+}
+.footer_items figure{
+    display: flex;
+    justify-content: center;
+    min-width: 26px;
 }
 .footer_items{
     display: flex;
