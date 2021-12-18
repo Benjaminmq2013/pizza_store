@@ -256,7 +256,9 @@ p{
 
     display: flex;
     align-items: center;
+    margin: 3px 0;
 }
+
 .footer_items img{
     margin-right: 3px;
 }
